@@ -1,0 +1,10 @@
+## ☁️ Deployment
+
+While not mandatory for the submission, this project is designed for easy deployment:
+
+* **Frontend (Next.js):** Can be deployed effortlessly to platforms like [Vercel](https://vercel.com/) (the creators of Next.js). Simply connect your GitHub repository, and Vercel will automatically detect and deploy the Next.js application.
+* **Backend (Node.js/Express):** Can be deployed to services like [Render](https://render.com/) or [Railway](https://railway.app/). These platforms support Node.js applications and can connect to external MongoDB/Firestore services. You would need to set up your environment variables (especially `JWT_SECRET` and Firebase credentials) on the chosen hosting platform.
+
+**Deployment Link:** (Placeholder - insert your live deployment URL here if available)
+
+## 🔄 Git Commits Showing Development Process
