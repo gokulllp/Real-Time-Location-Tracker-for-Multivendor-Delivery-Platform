@@ -1,0 +1,43 @@
+## 📁 Project Structure
+
+The project is organized into two main directories: `backend` and `frontend`.
+
+.
+├── backend/                  # Node.js, Express, TypeScript backend
+│   ├── src/                  # Source code for the backend
+│   │   ├── config/           # Firebase configuration
+│   │   ├── middleware/       # Authentication middleware
+│   │   ├── models/           # Conceptual data models for Firestore
+│   │   ├── routes/           # API route definitions
+│   │   ├── utils/            # Utility functions (JWT)
+│   │   ├── types.ts          # Shared TypeScript types
+│   │   └── server.ts         # Main Express server and Socket.IO setup
+│   ├── .env.example          # Example environment variables
+│   ├── package.json          # Backend dependencies and scripts
+│   ├── tsconfig.json         # TypeScript configuration for backend
+│   └── README.md             # Backend-specific README (optional)
+├── frontend/                 # Next.js, React, TypeScript frontend
+│   ├── public/               # Static assets
+│   ├── src/                  # Source code for the frontend
+│   │   ├── components/       # Reusable React components (e.g., Layout)
+│   │   ├── context/          # React Context for authentication
+│   │   ├── pages/            # Next.js pages (routes)
+│   │   │   ├── _app.tsx
+│   │   │   ├── index.tsx
+│   │   │   ├── login.tsx
+│   │   │   ├── signup.tsx
+│   │   │   ├── vendor.tsx
+│   │   │   ├── delivery.tsx
+│   │   │   ├── customer.tsx
+│   │   │   └── track/[trackingId].tsx
+│   │   ├── styles/           # Global CSS and Tailwind directives
+│   │   ├── types/            # Shared TypeScript types
+│   │   └── config/           # Frontend configuration (e.g., backend URL)
+│   ├── .env.local.example    # Example local environment variables
+│   ├── next.config.js        # Next.js configuration
+│   ├── package.json          # Frontend dependencies and scripts
+│   ├── postcss.config.js     # PostCSS configuration for Tailwind
+│   ├── tailwind.config.ts    # Tailwind CSS configuration
+│   └── tsconfig.json         # TypeScript configuration for frontend
+└── .gitignore                # Git ignore file
+└── README.md                 # Main project README (this file)
